@@ -1,0 +1,18 @@
+        ----------------------------Vehicle Chaser AI-------------------------------
+
+OBJECTIVE :
+- Follows Truck maintaining an almost constant distance
+- When asked Rams towards player Truck and takes truck one health point
+
+FLOWCHART :
+
+        Spawned
+ What should it do
+ |
+ |->if it should follow
+ |   |
+ |  |-> check the distance from truck if it is bigger than expected distance then accelerate other wise decelerate
+ |
+ |->if it should ram
+    |->Then chase towards truck until it collides with it
+    |-> start following by maintaining a specified distance
